@@ -4,7 +4,7 @@ Method evaluations expose architectural risks that potentially inhibit the achie
 
 ## Usage
 1. Use `Architecture_Evaluation_Form_Template_V0.xlsm` as a template with Microsoft Office to create new ATAM evaluation work sheet.
-2. Create a copy of [Google Sheet](https://drive.google.com/file/d/1csupqoVZB6Gs2Uv4THGreZeTOnarG4KO/view?usp=sharing) create new ATAM evaluation work sheet.
+2. Use a copy of [Google Sheet](https://drive.google.com/file/d/1csupqoVZB6Gs2Uv4THGreZeTOnarG4KO/view?usp=sharing) to create new ATAM evaluation work sheet.
 3. Use `Architecture_Evaluation_Form_Template_V0.ods` open sheet document to create new ATAM evaluation work sheet.
 
 ## Process
