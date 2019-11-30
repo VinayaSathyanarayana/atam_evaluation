@@ -2,7 +2,14 @@
 The Architecture Tradeoff Analysis Method (ATAM) is a method for evaluating software architectures relative to quality attribute goals. 
 Method evaluations expose architectural risks that potentially inhibit the achievement of an organization’s business goals. 
 
-`Architecture_Evaluation_Form_Template_V0.ods` open sheet document is a tool developed based on [ATAM](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=513908).
+## Usage
+1. Use `Architecture_Evaluation_Form_Template_V0.xlsm` as a template with Microsoft Office to create new ATAM evaluation work sheet.
+2. Create a copy of [Google Sheet](https://drive.google.com/file/d/1csupqoVZB6Gs2Uv4THGreZeTOnarG4KO/view?usp=sharing) create new ATAM evaluation work sheet.
+3. Use `Architecture_Evaluation_Form_Template_V0.ods` open sheet document to create new ATAM evaluation work sheet.
+
+## Process
+All of the above options are developed based on [ATAM](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=513908).
+
 This document can be used within the process defined by ATAM. ATAM process participants can complete this document while completing ATAM process mentioned in [ATAM](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=513908).
 
 _Step 5. Generate quality attribute utility tree._ The open sheet has the most quality attributes that are commonly found in modern software applications. These can be found under `User Perspective` and `Developer Perspective`sheets. ATAM participants should update not applicable `Quality Attributes` for architecture in `User Perspective` and `Developer Perspective` sheets under `Priority` column to `NA` and `Evaluation` column to `Non-Risk`.
