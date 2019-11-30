@@ -1,16 +1,21 @@
 # Introduction
-The Architecture Tradeoff Analysis Method (ATAM) is a method for evaluating software architectures relative to quality attribute goals. 
-Method evaluations expose architectural risks that potentially inhibit the achievement of an organization’s business goals. 
+
+The Architecture Tradeoff Analysis Method (ATAM) is a method for evaluating software architectures relative to quality attribute goals.
+Method evaluations expose architectural risks that potentially inhibit the achievement of an organization’s business goals.
 
 ## Usage
-1. Use `Architecture_Evaluation_Form_Template_V0.xlsm` as a template with Microsoft Office to create new ATAM evaluation work sheet.
-2. Use a copy of [Google Sheet](https://drive.google.com/file/d/1csupqoVZB6Gs2Uv4THGreZeTOnarG4KO/view?usp=sharing) to create new ATAM evaluation work sheet.
-3. Use `Architecture_Evaluation_Form_Template_V0.ods` open sheet document to create new ATAM evaluation work sheet.
 
-## Caution
-The work sheet uses Spread Sheet `Defined Ranges` to aggregate the *detail points* of each `Quality Attribute`. When new detail points are added pay extra caution to add new rows before the last row of detail point row of each `Quality Attribute` to avoid resetting the `Defined Ranges`.
+1. Use `Architecture_Evaluation_Form_Template_V0.xltm` as a template with Microsoft Office to create new ATAM evaluation work sheet.
+2. Use a copy of [Google Sheet](https://drive.google.com/file/d/1csupqoVZB6Gs2Uv4THGreZeTOnarG4KO/view?usp=sharing) to create new ATAM evaluation work sheet.
+3. Use `Architecture_Evaluation_Form_Template_V0.ods` Open Office document to create new ATAM evaluation work sheet.
+
+### Adding New Detail Row on Google Sheets / Open Office
+
+The work sheet uses `Named Ranges` / `Defined Ranges` to aggregate the *detail points* of each `Quality Attribute`. When new detail points are added pay extra caution to add new rows before the last row of detail point row of each `Quality Attribute` to avoid need of extending the `Named Ranges` / `Defined Ranges`.
+Copy the formula for `Qualifier` and `Full Qualifier` from adjacent row.
 
 ## Process
+
 All of the above options are developed based on [ATAM](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=513908).
 
 This document can be used within the process defined by ATAM. ATAM process participants can complete this document while completing ATAM process mentioned in [ATAM](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=513908).
@@ -25,7 +30,8 @@ _Step 8. Analyze architectural approaches._ This step reiterates the activities 
 
 _Step 9. Present results._ The final product architecture qualifier will be presented on `Summary` sheet. This is calculated based on `Risks`, `Sensitivity Points`, and `Tradeoffs` to be fixed.
 
-See `Lists` sheet for descriptions and rank values for summary calculations. 
+See `Lists` sheet for descriptions and rank values for summary calculations.
 
 ## TODO
+
 A possible improvement is to introduce a weight on `Quality Attributes` importance.
