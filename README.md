@@ -9,10 +9,11 @@ Method evaluations expose architectural risks that potentially inhibit the achie
 2. Use a copy of [Google Sheet](https://drive.google.com/file/d/1csupqoVZB6Gs2Uv4THGreZeTOnarG4KO/view?usp=sharing) to create new ATAM evaluation work sheet.
 3. Use `Architecture_Evaluation_Form_Template_V0.ods` Open Office document to create new ATAM evaluation work sheet. Tested with LibreOffice (c) v6.3.3 for Mac. Apache Open Office(c) is not supported.
 
-### Adding New Detail Row on Google Sheets / Open Office
+### Adding New Detail Rows to Quality Attribute Sections
 
-The work sheet uses `Named Ranges` to aggregate the *detail points* of each `Quality Attribute`. When new detail points are added pay extra caution to **add new rows before** the last row of detail point row of each `Quality Attribute` to avoid need of extending the `Named Ranges`.
-Copy the formula for `Qualifier` and `Full Qualifier` from adjacent row.
+To add an new detail row with Microsoft(c), use the `Duplicate Row` button after opening the document when macros are enabled.
+
+LibreOffice or Google Sheet uses `Named Ranges` to aggregate the *detail points* of each `Quality Attribute`. To avoid the need of extending the `Named Ranges` while adding a detail row use **add new rows before** option. Once new row is added copy the formula for `Qualifier` and `Full Qualifier` from adjacent row manually.
 
 ## Process
 
